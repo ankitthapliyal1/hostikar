@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+.btnn{
+    background-color: #412852 !important;
+    color: #fff !important;
+    border-radius: 0;
+    padding: 8px 35px;
+    border: none;
+}
+
+.btnn:hover {
+     background-color: #8b3fbd !important; 
+    
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+ .accordion {
+    --bs-accordion-border-radius: 0 !important;
+    background-color: #412852;
+}
+
+.accordion-button:not(.collapsed) {
+  
+    background-color: #412852;
+    color:white;
+    .accordion-button:not(.collapsed)::after{
+        background-image:url("assets/img/up.png");
+    }
+    
+}
+
+
+.accordion-button:focus {
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-color: WHITE;
+    background-color: #412852;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.accordion-body{
+    background-color: #412852;
+    color: #fff;
+}
+
+// .accordion-button:not(.collapsed)::after{
+//     background-image:url("assets/img/up.png");
+// }
+
+.accordion-header{
+    border: 1px solid #412852;
+}
+
+

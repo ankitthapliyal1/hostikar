@@ -1,0 +1,310 @@
+.topDiv{
+    background-color: #1B1421;
+    color: #fff;
+    border-bottom:10px solid #1B1421;
+}
+
+.checkbox{
+  accent-color: #1B1421;
+ 
+}
+
+[type="checkbox"]:checked{
+  outline: 1px solid white;
+}
+
+.poweredBy{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mr2{
+  margin-right: 150px;
+}
+
+.mr{
+  margin-right: 50px;
+}
+
+ul{
+  
+  padding: 0;
+
+}
+
+
+.margn{
+  margin-top: 115px;
+}
+
+.topDiv1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-top: -1px;
+}
+
+h1{
+    color: #412852;
+    font-weight: 800;
+}
+
+.star{
+    background-color: #412852;
+    padding: 5px;
+    margin: 2px;
+}
+.star2{
+    background-color: #1B1421;
+    padding: 5px;
+    margin: 2px;
+}
+
+.text1{
+  font-size: 22px;
+  color: #1B1421;
+  font-weight: 600;
+}
+
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    font-size: larger;
+    font-weight: bolder;    
+    margin-right: 5px;
+  }
+
+  .whiteDiv{
+    background-color: #fff;
+    color: #1B1421;
+    // margin: 5px;
+    padding: 35px;
+  }
+
+  .errow{
+    background-color: #1B1421;
+    color: white;
+    padding: 5px;
+    position:relative;
+    margin-right: 30px;
+  }
+
+  .errow:before {
+    content:" ";
+   
+    border-style: solid;
+    border-left: 25px solid #1B1421;
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-top: 17px solid transparent;
+    position: absolute;
+    left: 77px;
+    top: 0px;
+}
+
+  .continue{
+    border: 1px solid #1B1421;
+    padding: 3px 15px ;
+    width: 200px;
+    // margin: 5px;
+  }
+
+  .continue:hover{
+    background-color: #412852;
+    color: #fff;
+  }
+
+  .whiteDiv p {
+    font-size: 12px;
+    font-weight:600; 
+  }
+
+ .messageDiv{
+    background-color: #D9D4DC;
+     padding: 40px;
+     max-width: 500px;
+  }
+
+  .imgbox{
+    border: 1px solid #412852;
+    padding: 10px;
+    margin: 5px;
+    min-width: 75px;
+  }
+
+  .imgbox:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+ 
+  }
+
+ .accordion-body {
+    background-color: brown !important;
+    color: white;
+}
+
+.plan{
+  margin-top: 110px;
+}
+
+.bestPlan{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.customerDIv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.head{
+  background-color: #412852;
+  padding: 20px;
+  text-align: center;
+}
+
+.planCards{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+
+//  margin-bottom: 50px;
+
+}
+
+.card1{
+  margin-top: 64px;
+}
+
+.div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+//  margin: 5px;
+ 
+}
+
+
+
+@media screen and (max-width: 993px ) {
+
+  .plan{
+    margin-top: 0;
+  }
+
+  .div{
+    display: block;
+    margin: 10px;
+    
+   }
+
+   .margn{
+    margin-top: 0 !important;
+  }
+
+  .poweredBy{
+    display: grid;
+   
+  }
+
+  .mr{
+    margin-top: 20px;
+  }
+    
+  }
+
+
+
+
+
+
+
+// Toogle Design
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 22px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 1px;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 36px;
+  width: 36px;
+  left: -2px;
+  top:1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+
+}
+
+.slider.round:before {
+  border-radius: 50%;
+    background:#412852;
+        top: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
